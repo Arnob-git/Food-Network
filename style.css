@@ -6,6 +6,28 @@ body{
     font-family: 'Poppins', sans-serif;
     
 }
+.bar ul li{
+    display: inline-block;
+    margin: 0 20px;
+    background:transparent;
+    padding: 30px 10px;
+    transition: .4s;
+    
+}
+.bar ul li a{
+color: black;
+font-weight: 500px;
+font-size: 16px;
+font-family: 'Open Sans', sans-serif;
+transition: .4s;
+text-decoration: none;
+}
+.bar ul li:hover{
+    background: #fff9e6;
+}
+.bar ul li a:hover{
+    color: #ffc712;
+}
 p{
     color: rgb(102, 101, 101);
 }
@@ -14,6 +36,11 @@ section{
     display: flex;
     padding-left: 5%;
 }
+.order-food{
+    padding-top: 100px;
+
+}
+
 
  .order h1{
      font-size: 40px;
@@ -22,12 +49,7 @@ section{
 .orange{
     color: orangered;
 }
-.order-food{
-    padding-top: 200px;
-    background-image: url(images/shapes/Frame\ 59.jpg);
-    background-repeat: no-repeat;
-    background-position: right;
-}
+
 .order{
     width: 50%;
  
@@ -87,7 +109,7 @@ img{
     background-image: linear-gradient(lightcoral,orange);
 }
 #my-rep{
-    background: black;
+    background-image:linear-gradient(burlywood,rgb(228, 200, 165)) ;
 }
 
 #my-rep h2{
@@ -97,7 +119,7 @@ img{
 }
 #my-rep p{
     text-align: center;
-    color: orangered;
+    color: black;
 }
 .recipe-box{
     background-image: url(images/shapes/Frame\ 58.jpg);
@@ -162,7 +184,7 @@ img{
 
 }
 .last{
-    background: black;
+    background: rgb(22, 21, 21);
     height: 200px;
 }
 .last h2{
